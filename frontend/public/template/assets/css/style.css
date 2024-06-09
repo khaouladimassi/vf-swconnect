@@ -1,0 +1,204 @@
+
+
+.smaller-image {
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  left: 55%;
+  }
+  .logo-img{
+    position: relative;
+    max-width: 45%; /* Adjust the max-width as needed */
+    max-height: 45%; /* Adjust the max-height as needed */
+    left: 40%;
+
+   
+  }
+  .logo-container{
+    max-width: 500px; /* Adjust the max-width as needed */
+    max-height: 500px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; 
+
+  }
+  .button-container{
+    display: flex;
+    justify-content: center; 
+  }
+  .button-container button{
+  background: #6994C6;
+  border: #6994C6;
+  
+  padding: 0.3rem;
+  width: 150px;
+  height: 40px;
+
+  }
+  .btn-etu{
+    margin-right: 20px; 
+
+  }
+  .container-ent .etu{
+    position: relative;
+    bottom: 85%;
+    left: 15%;
+  }
+  .container-ent .entr{
+    position: relative;
+    bottom: 100%;
+    left: 15%;
+  }
+  .btn-ent{
+    margin-right: 20px; 
+
+  }
+  .btn-fle{
+    margin-right: 20px; 
+  }
+.container-ent{
+  background-color:#447AB8;
+  padding: 1rem;
+  width: 100%;
+  margin-bottom: 3%;
+}
+.container-ent p {
+  position: relative;
+  color: #fff;
+  font-size:16px;
+  text-align: center;
+  font-weight: 500;
+  bottom: 6px;
+}
+.icon-etu{
+  position: relative;
+  height: 35px;
+  width: 35px;
+  right: 35%;
+  bottom: 5px;
+
+}
+.icon-ent{
+  position: relative;
+  height: 40px;
+  width: 40px;
+  right: 35%;
+  bottom: 5px;
+
+}
+.icon-fleche{
+  position: relative;
+  height:23px;
+  width: 23px;
+  left: 40%;
+  bottom:20px;
+}
+.btn-fle{
+  background-color:#447AB8;
+  width: 100%;
+  height: 40px;
+  
+}
+.btn-fle .creer{
+  position: relative;
+  bottom: 5px;
+    right: 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.btn-facebook, .btn-google {
+  display: inline-block;
+  font-size: 12px;
+  height: 37px;
+  width: 190px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #ccc; /* Bordure grise */
+  border-radius: 5px;
+  color: #000; /* Couleur du texte */
+  background-color: #fff; /* Fond blanc */
+  margin: 7px;
+}
+
+
+.btn-facebook:hover, .btn-google:hover {
+  background-color: #f5f5f5; /* Fond légèrement gris au survol */
+}
+.button-text {
+  position: relative;
+  bottom: 33px;
+  padding-left: 25px;}
+.icon-face{
+  position: relative;
+  width: 20px;
+  height:20px;
+  margin: 3px;
+  right: 69px;
+  bottom: 8px;
+}
+.icon-goo{
+  position: relative;
+  width: 20px;
+  height:20px;
+  margin: 2px;
+  right: 65px;
+  bottom: 8px;
+  
+}
+.btn-google{
+
+  position: relative;
+  left :55%;
+  bottom: 70%;
+}
+.btn-facebook{
+  position: relative;
+  left:3%;
+  top: 30%;
+
+}
+.form-group a {
+  color: #447AB8; /* Couleur du lien */
+  text-decoration: none; /* Supprimer le soulignement par défaut */
+  font-size: 17px; /* Taille de la police */
+  margin-left: 333px; /* Déplacer le lien de 150px vers la droite */
+}
+.form-group a:hover {
+  text-decoration: underline; /* Souligner le lien au survol */
+}
+.img-fluid.design {
+  position: absolute; /* Position absolue */
+  top: 20px; /* Ajustez la valeur en fonction de la distance depuis le haut */
+  right: 20px; /* Ajustez la valeur en fonction de la distance depuis la droite */
+}
+.design {
+  animation: rotate 3s linear infinite; /* Applique l'animation 'rotate' de façon continue */
+}
+
+/*@keyframes rotate {
+  from {
+      transform: rotate(0deg);  Rotation initiale à 0 degrés 
+  }
+  to {
+      transform: rotate(180deg); Rotation complète à 180 degrés 
+  }
+}
+*/
+.form-group input {
+  background: #fff;
+  border: 1px solid #E0E6F6;
+  height: 40px;
+  box-shadow: none;
+  padding-left: 20px;
+  font-size: 16px;
+  width: 100%;
+}
+.form-group input:focus {
+  border-color: #B4C0E0;
+}
+.form-group input.form-icons {
+  padding-left: 42px;
+}
+

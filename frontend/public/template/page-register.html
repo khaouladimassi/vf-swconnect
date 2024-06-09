@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inscription Etudiant</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+</head>
+
+<body id="app">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-6   ">
+        <!-- Second division for signup form -->
+        <div class="logo-container">
+          <img src="assets/imgs/page/login-register/logo.png" alt="logo" class="img-fluid logo-img  ">
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Créer Un Compte</h5>
+            <div>
+              <p>Vous avez déja un compte ? <a href="../Html/page-de-connexion.html"> Connectez-vous</a></p>
+            </div>
+            <div class="container-ent">
+              <p>Créer un compte en tant que</p>
+              <div class="button-container">
+                <button class="btn btn-primary btn-etu">
+                  <img src="assets/imgs/page/login-register/icon-Etu.png" alt="Etudiant Icon" class="icon-etu">
+                  Etudiant
+                </button>
+                <button class="btn btn-primary btn-ent">
+                  <img src="assets/imgs/page/login-register/icon-ent.png" alt="Entreprise Icon" class="icon-ent">
+                  Entreprise
+                </button>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <span style="display: inline-block; width: 240px;">
+                <input type="text" class="form-control" id="prenom" placeholder="Entrez votre prénom">
+              </span>
+              <span style="display: inline-block; margin-left: 10px; margin-top: 10px; width: 240px;">
+                <input type="text" class="form-control" id="nom" placeholder="Entrez votre nom">
+              </span>
+            </div>
+
+            <div class="form-group">
+              <input type="email" class="form-control" id="email" placeholder="Enter votre email">
+            </div>
+
+            <div class="form-group">
+              <input type="password" class="form-control" id="password" placeholder="Enter your password">
+            </div>
+
+            <div class="form-group">
+              <input type="password" class="form-control" id="password" placeholder="Confirmation">
+            </div>
+
+            <input type="checkbox" id="myCheckbox" name="myCheckbox">
+            <label for="myCheckbox">J'ai lu et j'accepte vos conditions d'utilisation.</label>
+
+
+            <button type="submit" class="btn btn-primary btn-fle">
+              Créer un compte
+              <img src="assets/imgs/page/login-register/fleche.png" alt="fleche Icon" class="icon-fleche">
+            </button>
+
+            <button type="button" class=" btn-facebook" style=" margin-top: 10px;">
+              <img src="assets/imgs/page/login-register/facebook.png" alt="face Icon" class="icon-face">
+              Se connecter avec Facebook
+            </button>
+            <button type="button" class=" btn-google">
+              <img src="assets/imgs/page/login-register/google.png" alt="goo Icon" class="icon-goo">
+              Se connecter avec Google
+            </button>
+
+
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <!-- First division for image -->
+        <img src="assets/imgs/page/login-register/image.png" alt="Your Image" class="img-fluid smaller-image ">
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS (Optional if you need JS functionality) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- inclure Vue.js et Vue Router-->
+  <script src="https://unpkg.com/vue@3"></script>
+  <script src="https://unpkg.com/vue-router@4"></script>  
+</body>
+
+</html>
